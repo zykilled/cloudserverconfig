@@ -1,0 +1,13 @@
+server:
+  port: 8751
+
+eureka:
+  server:
+    renewal-percent-threshold: 0.60
+  instance:
+    hostname: master
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://localhost:8752/eureka/
