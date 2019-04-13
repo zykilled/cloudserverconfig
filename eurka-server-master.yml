@@ -10,5 +10,3 @@ eureka:
       defaultZone: http://slave:8752/eureka/
 spring:
   profiles: master
-  application:
-    name: eurka-server-master
