@@ -11,3 +11,22 @@ eureka:
     fetch-registry: false
     serviceUrl:
       defaultZone: http://localhost:8752/eureka/
+spring
+  profiles: master
+  application:
+    name: eurka-server
+  cloud:
+    bus:
+      trace:
+        enabled: true
+      enabled: true
+  rabbitmq:
+    host: 113.207.75.21
+    port: 5672
+    username: crmeeting
+    password: CRmeeting*()
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
