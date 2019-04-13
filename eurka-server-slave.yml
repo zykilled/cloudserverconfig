@@ -1,6 +1,3 @@
-server:
-  port: 8752
-
 eureka:
   server:
     renewal-percent-threshold: 0.60
