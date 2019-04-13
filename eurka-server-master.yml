@@ -15,7 +15,6 @@ spring:
   profiles: master
   application:
     name: eurka-server
-  spring:
   cloud:
     bus:
       trace:
